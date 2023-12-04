@@ -1,0 +1,38 @@
+<!-- Ejemplo onloadevent -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <script>
+        function myFunction () {
+            alert ("hola"
+            )
+
+        }
+         
+        function funcion2() {
+
+            alert ("soy la funcion2")
+        }
+
+        function funcion3 () {
+
+            alert ("soy manolo3")
+        }
+    
+     </script>
+     </head>
+
+     <body onload="myFunction()">
+        <h1>Events Html</h1>
+        <p>Escribe en el cuadro de texto</p>
+     
+        <input type="text" onkeydown="myFunction()">
+        <input type="text" onkeypress="funcion2()">
+        <input type="text" onkeyup="funcion3()">
+</body>
+</html>
